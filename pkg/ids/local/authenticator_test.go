@@ -16,16 +16,17 @@ package local
 
 import (
 	"fmt"
-	"github.com/google/uuid"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/internal/testutils"
-	"github.com/greenpau/go-authcrunch/pkg/authn/enums/operator"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/identity"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	logutil "github.com/greenpau/go-authcrunch/pkg/util/log"
 	"os"
 	"testing"
+
+	"github.com/google/uuid"
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/internal/testutils"
+	"github.com/oskoi/go-authcrunch/pkg/authn/enums/operator"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/identity"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	logutil "github.com/oskoi/go-authcrunch/pkg/util/log"
 )
 
 func TestAuthenticate(t *testing.T) {

@@ -22,13 +22,14 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"golang.org/x/crypto/ssh"
 	"os"
 	"strings"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"golang.org/x/crypto/ssh"
 )
 
 func readPEMFile(fp string) string {

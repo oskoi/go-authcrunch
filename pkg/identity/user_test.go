@@ -15,8 +15,9 @@
 package identity
 
 import (
-	"github.com/greenpau/go-authcrunch/pkg/requests"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
 )
 
 func TestNewUser(t *testing.T) {

@@ -17,10 +17,11 @@ package saml
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
 
 	"go.uber.org/zap"
 )

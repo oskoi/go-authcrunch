@@ -17,11 +17,12 @@ package ui
 import (
 	"bytes"
 	"fmt"
-	cfgutil "github.com/greenpau/go-authcrunch/pkg/util/cfg"
 	"io/ioutil"
 	"path"
 	"strings"
 	"text/template"
+
+	cfgutil "github.com/oskoi/go-authcrunch/pkg/util/cfg"
 )
 
 // Themes stores UI themes.

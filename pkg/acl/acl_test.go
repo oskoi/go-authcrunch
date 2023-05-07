@@ -17,12 +17,13 @@ package acl
 import (
 	"context"
 	"fmt"
-	"github.com/google/go-cmp/cmp"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	logutil "github.com/greenpau/go-authcrunch/pkg/util/log"
 	"testing"
 	"time"
+
+	"github.com/google/go-cmp/cmp"
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	logutil "github.com/oskoi/go-authcrunch/pkg/util/log"
 )
 
 func TestNewAccessList(t *testing.T) {

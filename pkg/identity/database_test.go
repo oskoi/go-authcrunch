@@ -16,14 +16,15 @@ package identity
 
 import (
 	"fmt"
-	"github.com/google/go-cmp/cmp"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
 	"path"
 	"path/filepath"
 	"testing"
 	"time"
+
+	"github.com/google/go-cmp/cmp"
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
 )
 
 var (

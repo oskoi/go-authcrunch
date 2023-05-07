@@ -16,8 +16,9 @@ package qr
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
 )
 
 func TestNewCode(t *testing.T) {

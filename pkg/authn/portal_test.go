@@ -15,19 +15,20 @@
 package authn
 
 import (
-	"github.com/google/go-cmp/cmp"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/internal/testutils"
-	"github.com/greenpau/go-authcrunch/pkg/acl"
-	"github.com/greenpau/go-authcrunch/pkg/authn/cookie"
-	"github.com/greenpau/go-authcrunch/pkg/authn/transformer"
-	"github.com/greenpau/go-authcrunch/pkg/authn/ui"
-	"github.com/greenpau/go-authcrunch/pkg/authz/options"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/ids"
-	logutil "github.com/greenpau/go-authcrunch/pkg/util/log"
-	"go.uber.org/zap"
 	"testing"
+
+	"github.com/google/go-cmp/cmp"
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/internal/testutils"
+	"github.com/oskoi/go-authcrunch/pkg/acl"
+	"github.com/oskoi/go-authcrunch/pkg/authn/cookie"
+	"github.com/oskoi/go-authcrunch/pkg/authn/transformer"
+	"github.com/oskoi/go-authcrunch/pkg/authn/ui"
+	"github.com/oskoi/go-authcrunch/pkg/authz/options"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/ids"
+	logutil "github.com/oskoi/go-authcrunch/pkg/util/log"
+	"go.uber.org/zap"
 )
 
 func TestNewPortal(t *testing.T) {

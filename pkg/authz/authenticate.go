@@ -16,18 +16,19 @@ package authz
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/authz/bypass"
-	"github.com/greenpau/go-authcrunch/pkg/authz/handlers"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/user"
-	"github.com/greenpau/go-authcrunch/pkg/util"
-	addrutil "github.com/greenpau/go-authcrunch/pkg/util/addr"
-	"github.com/greenpau/go-authcrunch/pkg/util/validate"
-	"go.uber.org/zap"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/authz/bypass"
+	"github.com/oskoi/go-authcrunch/pkg/authz/handlers"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/user"
+	"github.com/oskoi/go-authcrunch/pkg/util"
+	addrutil "github.com/oskoi/go-authcrunch/pkg/util/addr"
+	"github.com/oskoi/go-authcrunch/pkg/util/validate"
+	"go.uber.org/zap"
 )
 
 var (

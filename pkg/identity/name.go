@@ -15,8 +15,9 @@
 package identity
 
 import (
-	"github.com/greenpau/go-authcrunch/pkg/errors"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 // Name represents human name

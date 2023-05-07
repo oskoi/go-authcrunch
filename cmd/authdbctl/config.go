@@ -19,16 +19,17 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/util"
-	fileutil "github.com/greenpau/go-authcrunch/pkg/util/file"
-	logutil "github.com/greenpau/go-authcrunch/pkg/util/log"
-	"github.com/urfave/cli/v2"
-	"go.uber.org/zap"
-	"gopkg.in/yaml.v3"
 	"os"
 	"path/filepath"
 	"strings"
 	"unicode"
+
+	"github.com/oskoi/go-authcrunch/pkg/util"
+	fileutil "github.com/oskoi/go-authcrunch/pkg/util/file"
+	logutil "github.com/oskoi/go-authcrunch/pkg/util/log"
+	"github.com/urfave/cli/v2"
+	"go.uber.org/zap"
+	"gopkg.in/yaml.v3"
 )
 
 // Config holds the configuration for the CLI.

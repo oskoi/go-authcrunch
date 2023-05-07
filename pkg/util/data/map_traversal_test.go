@@ -17,8 +17,9 @@ package data
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
 )
 
 func TestGetValueFromMapByPath(t *testing.T) {

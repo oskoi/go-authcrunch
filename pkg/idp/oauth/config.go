@@ -16,11 +16,12 @@ package oauth
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/authn/icons"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
 	"net/url"
 	"regexp"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/authn/icons"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 const defaultIdentityTokenCookieName string = "AUTHP_ID_TOKEN"

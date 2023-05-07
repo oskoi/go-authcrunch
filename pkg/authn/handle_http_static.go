@@ -16,12 +16,13 @@ package authn
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/authn/ui"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
 	"io"
 	"net/http"
 	"path"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/authn/ui"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
 )
 
 func (p *Portal) handleHTTPStaticAssets(ctx context.Context, w http.ResponseWriter, r *http.Request, rr *requests.Request) error {

@@ -16,12 +16,13 @@ package authn
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/util"
-	addrutil "github.com/greenpau/go-authcrunch/pkg/util/addr"
+	"net/http"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/util"
+	addrutil "github.com/oskoi/go-authcrunch/pkg/util/addr"
 	"github.com/skip2/go-qrcode"
 	"go.uber.org/zap"
-	"net/http"
 )
 
 func (p *Portal) handleQRCode(ctx context.Context, w http.ResponseWriter, r *http.Request, rr *requests.Request) error {

@@ -17,14 +17,15 @@ package authn
 import (
 	"context"
 	"encoding/base64"
-	"github.com/greenpau/go-authcrunch/pkg/authn/enums/operator"
-	"github.com/greenpau/go-authcrunch/pkg/authproxy"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/user"
-	"go.uber.org/zap"
 	"strings"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/authn/enums/operator"
+	"github.com/oskoi/go-authcrunch/pkg/authproxy"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/user"
+	"go.uber.org/zap"
 )
 
 // BasicAuth performs API key authentication.

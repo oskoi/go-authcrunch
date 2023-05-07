@@ -17,11 +17,12 @@ package main
 import (
 	"bytes"
 	"fmt"
-	fileutil "github.com/greenpau/go-authcrunch/pkg/util/file"
-	"github.com/urfave/cli/v2"
-	"go.uber.org/zap"
 	"net/http"
 	"os"
+
+	fileutil "github.com/oskoi/go-authcrunch/pkg/util/file"
+	"github.com/urfave/cli/v2"
+	"go.uber.org/zap"
 )
 
 // User represents input user identity.

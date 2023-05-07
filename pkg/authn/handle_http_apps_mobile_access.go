@@ -16,10 +16,11 @@ package authn
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/user"
-	"go.uber.org/zap"
 	"net/http"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/user"
+	"go.uber.org/zap"
 )
 
 func (p *Portal) handleHTTPAppsMobileAccess(ctx context.Context, w http.ResponseWriter, r *http.Request, rr *requests.Request, parsedUser *user.User) error {

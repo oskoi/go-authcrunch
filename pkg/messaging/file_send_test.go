@@ -15,9 +15,10 @@
 package messaging
 
 import (
-	"github.com/google/go-cmp/cmp"
-	"github.com/greenpau/go-authcrunch/internal/tests"
 	"testing"
+
+	"github.com/google/go-cmp/cmp"
+	"github.com/oskoi/go-authcrunch/internal/tests"
 )
 
 func TestFileProviderSend(t *testing.T) {

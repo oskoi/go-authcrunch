@@ -16,13 +16,14 @@ package authn
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/authn/enums/operator"
-	"github.com/greenpau/go-authcrunch/pkg/authproxy"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/user"
-	"go.uber.org/zap"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/authn/enums/operator"
+	"github.com/oskoi/go-authcrunch/pkg/authproxy"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/user"
+	"go.uber.org/zap"
 )
 
 // APIKeyAuth performs API key authentication.

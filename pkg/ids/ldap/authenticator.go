@@ -18,10 +18,6 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
-	ldap "github.com/go-ldap/ldap/v3"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"go.uber.org/zap"
 	"io/ioutil"
 	"net"
 	"net/url"
@@ -29,6 +25,11 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	ldap "github.com/go-ldap/ldap/v3"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"go.uber.org/zap"
 )
 
 // Authenticator represents database connector.

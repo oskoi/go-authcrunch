@@ -16,15 +16,16 @@ package authz
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/acl"
-	"github.com/greenpau/go-authcrunch/pkg/authproxy"
-	"github.com/greenpau/go-authcrunch/pkg/authz/bypass"
-	"github.com/greenpau/go-authcrunch/pkg/authz/injector"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/kms"
-	cfgutil "github.com/greenpau/go-authcrunch/pkg/util/cfg"
-	logutil "github.com/greenpau/go-authcrunch/pkg/util/log"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/acl"
+	"github.com/oskoi/go-authcrunch/pkg/authproxy"
+	"github.com/oskoi/go-authcrunch/pkg/authz/bypass"
+	"github.com/oskoi/go-authcrunch/pkg/authz/injector"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/kms"
+	cfgutil "github.com/oskoi/go-authcrunch/pkg/util/cfg"
+	logutil "github.com/oskoi/go-authcrunch/pkg/util/log"
 )
 
 // PolicyConfig is Gatekeeper configuration.

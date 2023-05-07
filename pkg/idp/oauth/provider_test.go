@@ -19,14 +19,15 @@ import (
 	"crypto/rsa"
 	"encoding/json"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	logutil "github.com/greenpau/go-authcrunch/pkg/util/log"
-	"go.uber.org/zap"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	logutil "github.com/oskoi/go-authcrunch/pkg/util/log"
+	"go.uber.org/zap"
 )
 
 func TestNewIdentityProvider(t *testing.T) {

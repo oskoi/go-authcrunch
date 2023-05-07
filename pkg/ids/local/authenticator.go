@@ -15,12 +15,13 @@
 package local
 
 import (
-	"github.com/google/uuid"
-	"github.com/greenpau/go-authcrunch/pkg/identity"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"go.uber.org/zap"
 	"os"
 	"sync"
+
+	"github.com/google/uuid"
+	"github.com/oskoi/go-authcrunch/pkg/identity"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"go.uber.org/zap"
 )
 
 // Authenticator represents database connector.

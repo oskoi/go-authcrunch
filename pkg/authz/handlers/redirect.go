@@ -16,12 +16,13 @@ package handlers
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	addrutil "github.com/greenpau/go-authcrunch/pkg/util/addr"
 	"html/template"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	addrutil "github.com/oskoi/go-authcrunch/pkg/util/addr"
 )
 
 var jsRedirTmpl = template.Must(template.New("js_redir").Parse(`

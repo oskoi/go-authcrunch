@@ -16,9 +16,10 @@ package addr
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/waf"
 	"net/http"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/waf"
 )
 
 const malformedURLStr = "malformed-url"

@@ -16,11 +16,12 @@ package authn
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/authn/enums/operator"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"go.uber.org/zap"
 	"net/http"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/authn/enums/operator"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"go.uber.org/zap"
 )
 
 func (p *Portal) handleHTTPExternalLogin(ctx context.Context, w http.ResponseWriter, r *http.Request, rr *requests.Request, authMethod string) error {

@@ -24,11 +24,12 @@ import (
 	"encoding/binary"
 	"encoding/pem"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/util"
 	"io/ioutil"
 	"math/big"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/util"
 )
 
 // JwksKey is a JSON object that represents a cryptographic key.

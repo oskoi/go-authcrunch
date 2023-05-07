@@ -22,13 +22,14 @@ import (
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"golang.org/x/crypto/openpgp"
-	"golang.org/x/crypto/ssh"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"golang.org/x/crypto/openpgp"
+	"golang.org/x/crypto/ssh"
 )
 
 var supportedPublicKeyTypes = map[string]bool{

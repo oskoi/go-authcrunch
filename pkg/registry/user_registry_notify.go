@@ -16,12 +16,13 @@ package registry
 
 import (
 	"bytes"
-	"github.com/greenpau/go-authcrunch/pkg/credentials"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/messaging"
 	"mime/quotedprintable"
 	"strings"
 	"text/template"
+
+	"github.com/oskoi/go-authcrunch/pkg/credentials"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/messaging"
 )
 
 // Notify serves notifications.

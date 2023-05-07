@@ -18,17 +18,18 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/authn/enums/operator"
-	"github.com/greenpau/go-authcrunch/pkg/identity"
-	"github.com/greenpau/go-authcrunch/pkg/identity/qr"
-	"github.com/greenpau/go-authcrunch/pkg/ids"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/user"
-	"github.com/greenpau/go-authcrunch/pkg/util"
-	"github.com/skip2/go-qrcode"
-	"go.uber.org/zap"
 	"net/http"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/authn/enums/operator"
+	"github.com/oskoi/go-authcrunch/pkg/identity"
+	"github.com/oskoi/go-authcrunch/pkg/identity/qr"
+	"github.com/oskoi/go-authcrunch/pkg/ids"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/user"
+	"github.com/oskoi/go-authcrunch/pkg/util"
+	"github.com/skip2/go-qrcode"
+	"go.uber.org/zap"
 )
 
 func (p *Portal) handleHTTPMfaBarcode(ctx context.Context, w http.ResponseWriter, r *http.Request, endpoint string) error {

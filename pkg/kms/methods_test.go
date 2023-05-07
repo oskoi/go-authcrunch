@@ -15,8 +15,9 @@
 package kms
 
 import (
-	"github.com/greenpau/go-authcrunch/internal/tests"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
 )
 
 func TestGetSigningMethodAlias(t *testing.T) {

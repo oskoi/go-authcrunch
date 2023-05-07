@@ -16,12 +16,13 @@ package identity
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
 	"math"
 	"testing"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
 )
 
 func generateTestPasscode(r *requests.Request, offset bool) error {

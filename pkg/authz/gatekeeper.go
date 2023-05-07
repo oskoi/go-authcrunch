@@ -16,16 +16,18 @@ package authz
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/acl"
-	"github.com/greenpau/go-authcrunch/pkg/authproxy"
-	"github.com/greenpau/go-authcrunch/pkg/authz/options"
-	"github.com/greenpau/go-authcrunch/pkg/authz/validator"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/kms"
+
+	"github.com/oskoi/go-authcrunch/pkg/acl"
+	"github.com/oskoi/go-authcrunch/pkg/authproxy"
+	"github.com/oskoi/go-authcrunch/pkg/authz/options"
+	"github.com/oskoi/go-authcrunch/pkg/authz/validator"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/kms"
+
+	"strings"
 
 	"github.com/google/uuid"
 	"go.uber.org/zap"
-	"strings"
 )
 
 // Gatekeeper is an auth.

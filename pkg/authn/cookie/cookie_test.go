@@ -16,8 +16,9 @@ package cookie
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
 )
 
 func TestFactory(t *testing.T) {

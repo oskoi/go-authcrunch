@@ -15,9 +15,10 @@
 package validate
 
 import (
-	"github.com/greenpau/go-authcrunch/pkg/errors"
 	"net/mail"
 	"regexp"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 // LoginHint verifies if the provided login_hint argument is valid

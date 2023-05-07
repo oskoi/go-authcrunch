@@ -17,19 +17,20 @@ package authn
 import (
 	"context"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/authn/enums/operator"
-	"github.com/greenpau/go-authcrunch/pkg/idp"
-	"github.com/greenpau/go-authcrunch/pkg/ids"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/user"
-	"github.com/greenpau/go-authcrunch/pkg/util"
-	addrutil "github.com/greenpau/go-authcrunch/pkg/util/addr"
-	"go.uber.org/zap"
 	"net/http"
 	"net/url"
 	"path"
 	"strings"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/authn/enums/operator"
+	"github.com/oskoi/go-authcrunch/pkg/idp"
+	"github.com/oskoi/go-authcrunch/pkg/ids"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/user"
+	"github.com/oskoi/go-authcrunch/pkg/util"
+	addrutil "github.com/oskoi/go-authcrunch/pkg/util/addr"
+	"go.uber.org/zap"
 )
 
 func (p *Portal) handleHTTPLogin(ctx context.Context, w http.ResponseWriter, r *http.Request, rr *requests.Request, usr *user.User) error {

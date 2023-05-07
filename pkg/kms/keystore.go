@@ -17,10 +17,10 @@ package kms
 import (
 	"strings"
 
-	jwtlib "github.com/golang-jwt/jwt/v4"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/user"
+	jwtlib "github.com/golang-jwt/jwt/v5"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/user"
 	"go.uber.org/zap"
 )
 

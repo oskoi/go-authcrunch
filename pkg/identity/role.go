@@ -15,8 +15,9 @@
 package identity
 
 import (
-	"github.com/greenpau/go-authcrunch/pkg/errors"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 // Role is the user role or entitlement in a system.

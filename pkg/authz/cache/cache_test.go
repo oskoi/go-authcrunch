@@ -16,11 +16,12 @@ package cache
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/internal/testutils"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
 	"testing"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/internal/testutils"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 func TestTokenCache(t *testing.T) {

@@ -16,14 +16,17 @@ package ldap
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	// "github.com/greenpau/go-authcrunch/internal/testutils"
-	// "github.com/greenpau/go-authcrunch/pkg/authn/enums/operator"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	// "github.com/greenpau/go-authcrunch/pkg/requests"
-	logutil "github.com/greenpau/go-authcrunch/pkg/util/log"
-	"go.uber.org/zap"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
+
+	// "github.com/oskoi/go-authcrunch/internal/testutils"
+	// "github.com/oskoi/go-authcrunch/pkg/authn/enums/operator"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	// "github.com/oskoi/go-authcrunch/pkg/requests"
 	"testing"
+
+	logutil "github.com/oskoi/go-authcrunch/pkg/util/log"
+	"go.uber.org/zap"
 )
 
 var (

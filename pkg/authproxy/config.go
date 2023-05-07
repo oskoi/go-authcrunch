@@ -15,9 +15,10 @@
 package authproxy
 
 import (
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	cfgutil "github.com/greenpau/go-authcrunch/pkg/util/cfg"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	cfgutil "github.com/oskoi/go-authcrunch/pkg/util/cfg"
 )
 
 // BasicAuthConfig is a config for basic authentication.

@@ -17,12 +17,13 @@ package authn
 import (
 	"context"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/user"
-	addrutil "github.com/greenpau/go-authcrunch/pkg/util/addr"
-	"go.uber.org/zap"
 	"net/http"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/user"
+	addrutil "github.com/oskoi/go-authcrunch/pkg/util/addr"
+	"go.uber.org/zap"
 )
 
 func (p *Portal) handleHTTPSettings(ctx context.Context, w http.ResponseWriter, r *http.Request, rr *requests.Request, parsedUser *user.User) error {

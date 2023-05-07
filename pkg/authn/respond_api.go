@@ -16,11 +16,12 @@ package authn
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	addrutil "github.com/greenpau/go-authcrunch/pkg/util/addr"
-	"go.uber.org/zap"
 	"net/http"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	addrutil "github.com/oskoi/go-authcrunch/pkg/util/addr"
+	"go.uber.org/zap"
 )
 
 func (p *Portal) handleAPI(ctx context.Context, w http.ResponseWriter, r *http.Request, rr *requests.Request) error {

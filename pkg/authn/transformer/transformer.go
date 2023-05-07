@@ -17,9 +17,10 @@ package transformer
 import (
 	"context"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/acl"
-	cfgutil "github.com/greenpau/go-authcrunch/pkg/util/cfg"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/acl"
+	cfgutil "github.com/oskoi/go-authcrunch/pkg/util/cfg"
 )
 
 // Config represents a common set of configuration settings

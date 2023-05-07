@@ -18,9 +18,10 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
 	"net/http"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
 )
 
 func (p *Portal) handleHTTPBasicLogin(ctx context.Context, w http.ResponseWriter, r *http.Request, rr *requests.Request) error {

@@ -16,13 +16,14 @@ package kms
 
 import (
 	"fmt"
-	jwtlib "github.com/golang-jwt/jwt/v4"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/user"
 	"testing"
 	"time"
+
+	jwtlib "github.com/golang-jwt/jwt/v5"
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/user"
 )
 
 type TestUserClaims struct {

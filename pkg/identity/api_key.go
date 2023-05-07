@@ -15,10 +15,11 @@
 package identity
 
 import (
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"golang.org/x/crypto/bcrypt"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"golang.org/x/crypto/bcrypt"
 )
 
 // APIKeyBundle is a collection of API keys.

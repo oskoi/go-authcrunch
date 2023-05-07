@@ -16,8 +16,9 @@ package cfg
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
 )
 
 func TestEncodeArgs(t *testing.T) {

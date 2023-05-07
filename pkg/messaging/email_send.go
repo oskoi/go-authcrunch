@@ -16,13 +16,14 @@ package messaging
 
 import (
 	"fmt"
-	"github.com/emersion/go-sasl"
-	"github.com/emersion/go-smtp"
-	"github.com/greenpau/go-authcrunch/pkg/credentials"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/util"
 	"strings"
 	"time"
+
+	"github.com/emersion/go-sasl"
+	"github.com/emersion/go-smtp"
+	"github.com/oskoi/go-authcrunch/pkg/credentials"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/util"
 )
 
 // EmailProviderSendInput is input for EmailProvider.Send function.

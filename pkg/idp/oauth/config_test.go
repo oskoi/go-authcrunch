@@ -16,10 +16,11 @@ package oauth
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/pkg/authn/icons"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/pkg/authn/icons"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 func TestValidateConfig(t *testing.T) {
@@ -123,7 +124,7 @@ func TestValidateConfig(t *testing.T) {
 				LoginIcon: &icons.LoginIcon{
 					ClassName:       "lab la-discord la-2x",
 					Color:           "white",
-					Text: 					 "Discord",
+					Text:            "Discord",
 					BackgroundColor: "#5865f2",
 					TextColor:       "#37474f",
 				},

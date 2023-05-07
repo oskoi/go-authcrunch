@@ -17,12 +17,13 @@ package authn
 import (
 	"context"
 	"encoding/json"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	addrutil "github.com/greenpau/go-authcrunch/pkg/util/addr"
-	"go.uber.org/zap"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	addrutil "github.com/oskoi/go-authcrunch/pkg/util/addr"
+	"go.uber.org/zap"
 )
 
 // AccessDeniedResponse is the access denied response.

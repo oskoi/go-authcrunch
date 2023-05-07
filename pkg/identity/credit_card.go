@@ -15,9 +15,10 @@
 package identity
 
 import (
-	"github.com/greenpau/go-authcrunch/pkg/errors"
 	"strings"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 // CreditCard represents a credit card.

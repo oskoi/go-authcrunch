@@ -16,9 +16,10 @@ package acl
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
 	"regexp"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 type dataType int

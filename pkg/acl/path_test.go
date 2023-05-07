@@ -15,8 +15,9 @@
 package acl
 
 import (
-	"github.com/greenpau/go-authcrunch/internal/tests"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
 )
 
 func TestMatchPathBasedACL(t *testing.T) {

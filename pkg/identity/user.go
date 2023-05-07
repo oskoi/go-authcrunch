@@ -15,10 +15,11 @@
 package identity
 
 import (
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
 	"strings"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
 )
 
 // UserMetadata is metadata associated with a user.

@@ -16,12 +16,13 @@ package sso
 
 import (
 	"fmt"
-	"github.com/google/go-cmp/cmp"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	logutil "github.com/greenpau/go-authcrunch/pkg/util/log"
-	"go.uber.org/zap"
 	"testing"
+
+	"github.com/google/go-cmp/cmp"
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	logutil "github.com/oskoi/go-authcrunch/pkg/util/log"
+	"go.uber.org/zap"
 )
 
 func TestNewSingleSignOnProvider(t *testing.T) {

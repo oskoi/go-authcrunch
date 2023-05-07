@@ -16,9 +16,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/urfave/cli/v2"
 	"log"
 	"os"
+
+	"github.com/urfave/cli/v2"
 
 	"github.com/greenpau/versioned"
 )
@@ -36,7 +37,7 @@ var (
 func init() {
 	app = versioned.NewPackageManager("authdbctl")
 	app.Description = "AuthDB management client"
-	app.Documentation = "https://github.com/greenpau/go-authcrunch/"
+	app.Documentation = "https://github.com/oskoi/go-authcrunch/"
 	app.SetVersion(appVersion, "1.0.40")
 	app.SetGitBranch(gitBranch, "main")
 	app.SetGitCommit(gitCommit, "v1.0.39-3-gba18559")

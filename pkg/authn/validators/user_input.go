@@ -16,10 +16,11 @@ package validators
 
 import (
 	"fmt"
-	charsetutil "github.com/greenpau/go-authcrunch/pkg/util/charset"
 	"net"
 	"regexp"
 	"strings"
+
+	charsetutil "github.com/oskoi/go-authcrunch/pkg/util/charset"
 )
 
 const usernameCharset = "0123456789abcdefghijklmnopqrstuvwxyz"

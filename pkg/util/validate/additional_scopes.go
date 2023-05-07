@@ -15,8 +15,9 @@
 package validate
 
 import (
-	"github.com/greenpau/go-authcrunch/pkg/errors"
 	"regexp"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 var pattern = regexp.MustCompile("^[\\w|\\s]+$")

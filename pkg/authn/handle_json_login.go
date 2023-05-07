@@ -17,8 +17,9 @@ package authn
 import (
 	"context"
 	"encoding/json"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
 	"net/http"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
 )
 
 // AuthRequest is authentication request.

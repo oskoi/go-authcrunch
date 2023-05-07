@@ -21,14 +21,13 @@ import (
 	"crypto/x509"
 	"encoding/json"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/internal/testutils"
-	"github.com/greenpau/go-authcrunch/pkg/acl"
-	"github.com/greenpau/go-authcrunch/pkg/ids"
-	// "github.com/greenpau/go-authcrunch/pkg/authn/backends/local"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	logutil "github.com/greenpau/go-authcrunch/pkg/util/log"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/internal/testutils"
+	"github.com/oskoi/go-authcrunch/pkg/acl"
+	"github.com/oskoi/go-authcrunch/pkg/ids"
+
+	// "github.com/oskoi/go-authcrunch/pkg/authn/backends/local"
 	"io/ioutil"
 	"net"
 	"net/http"
@@ -37,6 +36,10 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	logutil "github.com/oskoi/go-authcrunch/pkg/util/log"
 
 	"net/http/httptest"
 	"testing"

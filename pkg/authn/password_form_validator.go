@@ -16,8 +16,9 @@ package authn
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
 	"net/http"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
 )
 
 func validatePasswordChangeForm(r *http.Request, rr *requests.Request) error {

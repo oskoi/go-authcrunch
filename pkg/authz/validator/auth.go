@@ -16,12 +16,13 @@ package validator
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/authproxy"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	addrutil "github.com/greenpau/go-authcrunch/pkg/util/addr"
 	"net/http"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/authproxy"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	addrutil "github.com/oskoi/go-authcrunch/pkg/util/addr"
 )
 
 // parseCustomAuthHeader authorizes HTTP requests based on the presence and the

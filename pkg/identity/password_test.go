@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 func TestNewPassword(t *testing.T) {

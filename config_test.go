@@ -16,19 +16,20 @@ package authcrunch
 
 import (
 	"fmt"
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/internal/testutils"
-	"github.com/greenpau/go-authcrunch/pkg/acl"
-	"github.com/greenpau/go-authcrunch/pkg/authn"
-	"github.com/greenpau/go-authcrunch/pkg/authz"
-	"github.com/greenpau/go-authcrunch/pkg/credentials"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/idp"
-	"github.com/greenpau/go-authcrunch/pkg/ids"
-	"github.com/greenpau/go-authcrunch/pkg/messaging"
 	"path"
 	"path/filepath"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/internal/testutils"
+	"github.com/oskoi/go-authcrunch/pkg/acl"
+	"github.com/oskoi/go-authcrunch/pkg/authn"
+	"github.com/oskoi/go-authcrunch/pkg/authz"
+	"github.com/oskoi/go-authcrunch/pkg/credentials"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/idp"
+	"github.com/oskoi/go-authcrunch/pkg/ids"
+	"github.com/oskoi/go-authcrunch/pkg/messaging"
 )
 
 func TestNewConfig(t *testing.T) {

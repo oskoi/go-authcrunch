@@ -15,10 +15,11 @@
 package testutils
 
 import (
-	"github.com/greenpau/go-authcrunch/internal/tests"
-	"github.com/greenpau/go-authcrunch/pkg/identity"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
 	"path/filepath"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
+	"github.com/oskoi/go-authcrunch/pkg/identity"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
 )
 
 // CreateTestDatabase returns database instance.

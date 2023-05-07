@@ -15,8 +15,9 @@
 package util
 
 import (
-	"github.com/greenpau/go-authcrunch/internal/tests"
 	"testing"
+
+	"github.com/oskoi/go-authcrunch/internal/tests"
 )
 
 func TestSanitizeURL(t *testing.T) {

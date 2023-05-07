@@ -15,10 +15,11 @@
 package cache
 
 import (
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/user"
 	"sync"
 	"time"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/user"
 )
 
 // TokenCache contains cached tokens

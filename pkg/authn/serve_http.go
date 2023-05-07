@@ -16,10 +16,11 @@ package authn
 
 import (
 	"context"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	"github.com/greenpau/go-authcrunch/pkg/util"
 	"net/http"
 	"strings"
+
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	"github.com/oskoi/go-authcrunch/pkg/util"
 )
 
 // ServeHTTP is a gateway for the authentication portal.

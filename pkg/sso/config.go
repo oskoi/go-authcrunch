@@ -17,7 +17,8 @@ package sso
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
+
+	"github.com/oskoi/go-authcrunch/pkg/errors"
 )
 
 // SingleSignOnProviderConfig represents an identity provider configuration.

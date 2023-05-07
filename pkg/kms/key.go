@@ -32,10 +32,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	jwtlib "github.com/golang-jwt/jwt/v4"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/shared"
-	"github.com/greenpau/go-authcrunch/pkg/user"
+	jwtlib "github.com/golang-jwt/jwt/v5"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/shared"
+	"github.com/oskoi/go-authcrunch/pkg/user"
 )
 
 // CryptoKey contains a crypto graphic key and associated metadata.
